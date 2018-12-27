@@ -1,0 +1,14 @@
+[2018-12-27 14:07:30,054][INFO ][node                     ] [Slipstream] version[2.4.3], pid[28364], build[d38a34e/2016-12-07T16:28:56Z]
+[2018-12-27 14:07:30,055][INFO ][node                     ] [Slipstream] initializing ...
+[2018-12-27 14:07:30,511][INFO ][plugins                  ] [Slipstream] modules [reindex, lang-expression, lang-groovy], plugins [head, analysis-kuromoji-neologd], sites [head]
+[2018-12-27 14:07:30,529][INFO ][env                      ] [Slipstream] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [1.6tb], net total_space [1.8tb], spins? [unknown], types [apfs]
+[2018-12-27 14:07:30,529][INFO ][env                      ] [Slipstream] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-12-27 14:07:30,530][WARN ][env                      ] [Slipstream] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2018-12-27 14:07:31,701][INFO ][node                     ] [Slipstream] initialized
+[2018-12-27 14:07:31,701][INFO ][node                     ] [Slipstream] starting ...
+[2018-12-27 14:07:31,794][INFO ][transport                ] [Slipstream] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-12-27 14:07:31,798][INFO ][discovery                ] [Slipstream] elasticsearch/oBEWLqq9SbSOjz-vWvd80A
+[2018-12-27 14:07:34,837][INFO ][cluster.service          ] [Slipstream] new_master {Slipstream}{oBEWLqq9SbSOjz-vWvd80A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-12-27 14:07:34,858][INFO ][http                     ] [Slipstream] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-12-27 14:07:34,858][INFO ][node                     ] [Slipstream] started
+[2018-12-27 14:07:34,883][INFO ][gateway                  ] [Slipstream] recovered [0] indices into cluster_state
