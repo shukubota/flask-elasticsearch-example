@@ -1,0 +1,2 @@
+# flask-elasticsearch-example
+flaskとelasticsearchで機械学習に必要なapi構築の練習
