@@ -19,3 +19,18 @@
 [2018-12-27 14:56:48,513][INFO ][node                     ] [Slipstream] stopped
 [2018-12-27 14:56:48,514][INFO ][node                     ] [Slipstream] closing ...
 [2018-12-27 14:56:48,517][INFO ][node                     ] [Slipstream] closed
+[2018-12-27 22:48:20,323][INFO ][node                     ] [Rhiannon] version[2.4.3], pid[37169], build[d38a34e/2016-12-07T16:28:56Z]
+[2018-12-27 22:48:20,323][INFO ][node                     ] [Rhiannon] initializing ...
+[2018-12-27 22:48:20,950][INFO ][plugins                  ] [Rhiannon] modules [reindex, lang-expression, lang-groovy], plugins [head, analysis-kuromoji-neologd], sites [head]
+[2018-12-27 22:48:20,978][INFO ][env                      ] [Rhiannon] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [1.7tb], net total_space [1.8tb], spins? [unknown], types [apfs]
+[2018-12-27 22:48:20,978][INFO ][env                      ] [Rhiannon] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-12-27 22:48:20,979][WARN ][env                      ] [Rhiannon] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2018-12-27 22:48:22,665][INFO ][node                     ] [Rhiannon] initialized
+[2018-12-27 22:48:22,665][INFO ][node                     ] [Rhiannon] starting ...
+[2018-12-27 22:48:22,764][INFO ][transport                ] [Rhiannon] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-12-27 22:48:22,769][INFO ][discovery                ] [Rhiannon] elasticsearch/zNvwdZGRRXecIB5wibkfvg
+[2018-12-27 22:48:25,811][INFO ][cluster.service          ] [Rhiannon] new_master {Rhiannon}{zNvwdZGRRXecIB5wibkfvg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-12-27 22:48:25,826][INFO ][http                     ] [Rhiannon] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-12-27 22:48:25,826][INFO ][node                     ] [Rhiannon] started
+[2018-12-27 22:48:25,854][INFO ][gateway                  ] [Rhiannon] recovered [1] indices into cluster_state
+[2018-12-27 22:48:26,232][INFO ][cluster.routing.allocation] [Rhiannon] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[gutenberg_books][4], [gutenberg_books][2], [gutenberg_books][1], [gutenberg_books][3]] ...]).
